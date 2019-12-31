@@ -2,9 +2,11 @@ name: physical-interactions-plotting
 channels:
   - defaults
 dependencies:
-  -  pandas
-  -  pygraphviz
-  -  matplotlib
+  - pandas
+  - pygraphviz
+  - matplotlib
+  - nb_conda
+  - ipykernel
   - pip
   - pip:
     - prwlr
