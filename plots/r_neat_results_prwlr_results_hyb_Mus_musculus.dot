@@ -1,0 +1,32 @@
+graph  {
+hsa;
+"hsa|tet";
+"dme|hsa";
+"cel|hsa";
+"cel|dme|hsa";
+"cel|dme|hsa|tet";
+"cel|ddi|dme|hsa";
+"ath|cel|dme|hsa|vcn";
+"ath|cel|ddi|dme|hsa";
+"ath|cel|ddi|dme|hsa|sce|spo|tcr|tet|vcn";
+"ath|cel|ddi|dme|hsa|pfa|sce|spo|tet|vcn";
+"ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn";
+hsa -- hsa  [A="---------+--------", B="---------+--------", PROF_A="---------+--------", PROF_Q="---------+--------", color=green, expected_nab="712.6594", label="3.997700390111456e-162", nab=365, penwidth="26.391901663051335", style=solid, taxa_A=hsa, taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "hsa|tet"  [A="---------+--------", B="---------+------+-", PROF_A="---------+------+-", PROF_Q="---------+--------", color=grey, expected_nab="4.5683", label="0.7874382325221899", nab=5, penwidth="0.3615328994938539", style=solid, taxa_A="hsa|tet", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "dme|hsa"  [A="---------+--------", B="-------+-+--------", PROF_A="-------+-+--------", PROF_Q="---------+--------", color=green, expected_nab="151.2625", label="0.8317488742479681", nab=153, penwidth="11.062906724511933", style=solid, taxa_A="dme|hsa", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "cel|hsa"  [A="---------+--------", B="----+----+--------", PROF_A="----+----+--------", PROF_Q="---------+--------", color=grey, expected_nab="36.039", label="0.480004784731451", nab=39, penwidth="2.8199566160520604", style=solid, taxa_A="cel|hsa", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "cel|dme|hsa"  [A="---------+--------", B="----+--+-+--------", PROF_A="----+--+-+--------", PROF_Q="---------+--------", color=green, expected_nab="162.9371", label="0.346789882749725", nab=155, penwidth="11.207519884309471", style=solid, taxa_A="cel|dme|hsa", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "cel|dme|hsa|tet"  [A="---------+--------", B="----+--+-+------+-", PROF_A="----+--+-+------+-", PROF_Q="---------+--------", color=grey, expected_nab="2.5380000000000003", label="0.230485923142126", nab=4, penwidth="0.28922631959508316", style=solid, taxa_A="cel|dme|hsa|tet", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "cel|ddi|dme|hsa"  [A="---------+--------", B="----+-++-+--------", PROF_A="----+-++-+--------", PROF_Q="---------+--------", color=grey, expected_nab="9.1367", label="0.147284506984707", nab=6, penwidth="0.4338394793926247", style=solid, taxa_A="cel|ddi|dme|hsa", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "ath|cel|dme|hsa|vcn"  [A="---------+--------", B="-+--+--+-+-------+", PROF_A="-+--+--+-+-------+", PROF_Q="---------+--------", color=grey, expected_nab="15.2278", label="0.24346047823892705", nab=12, penwidth="0.8676789587852495", style=solid, taxa_A="ath|cel|dme|hsa|vcn", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "ath|cel|ddi|dme|hsa"  [A="---------+--------", B="-+--+-++-+--------", PROF_A="-+--+-++-+--------", PROF_Q="---------+--------", color=grey, expected_nab="3.5531", label="0.75553668019264", nab=4, penwidth="0.28922631959508316", style=solid, taxa_A="ath|cel|ddi|dme|hsa", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "ath|cel|ddi|dme|hsa|sce|spo|tcr|tet|vcn"  [A="---------+--------", B="-+--+-++-+--+-++++", PROF_A="-+--+-++-+--+-++++", PROF_Q="---------+--------", color=grey, expected_nab="6.0911", label="0.958836753253422", nab=6, penwidth="0.4338394793926247", style=solid, taxa_A="ath|cel|ddi|dme|hsa|sce|spo|tcr|tet|vcn", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "ath|cel|ddi|dme|hsa|pfa|sce|spo|tet|vcn"  [A="---------+--------", B="-+--+-++-++-+-+-++", PROF_A="-+--+-++-++-+-+-++", PROF_Q="---------+--------", color=green, expected_nab="16.7505", label="0.932239798382642", nab=17, penwidth="1.2292118582791034", style=solid, taxa_A="ath|cel|ddi|dme|hsa|pfa|sce|spo|tet|vcn", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+hsa -- "ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn"  [A="---------+--------", B="-+--+-++-++-+-++++", PROF_A="-+--+-++-++-+-++++", PROF_Q="---------+--------", color=grey, expected_nab="55.8351", label="0.4575643589473111", nab=52, penwidth="3.759942154736081", style=solid, taxa_A="ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa" -- "dme|hsa"  [A="-------+-+--------", B="-------+-+--------", PROF_A="-------+-+--------", PROF_Q="-------+-+--------", color=grey, expected_nab="32.1056", label="0.0227487445726549", nab=21, penwidth="1.5184381778741862", style=solid, taxa_A="dme|hsa", taxa_Q="dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa" -- "cel|dme|hsa"  [A="-------+-+--------", B="----+--+-+--------", PROF_A="----+--+-+--------", PROF_Q="-------+-+--------", color=green, expected_nab="34.5835", label="0.302169528420538", nab=40, penwidth="2.892263195950832", style=solid, taxa_A="cel|dme|hsa", taxa_Q="dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"cel|dme|hsa" -- "cel|dme|hsa"  [A="----+--+-+--------", B="----+--+-+--------", PROF_A="----+--+-+--------", PROF_Q="----+--+-+--------", color=green, expected_nab="37.2527", label="0.436605033640642", nab=33, penwidth="2.386117136659436", style=solid, taxa_A="cel|dme|hsa", taxa_Q="cel|dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"cel|dme|hsa" -- "ath|cel|dme|hsa|vcn"  [A="----+--+-+--------", B="-+--+--+-+-------+", PROF_A="-+--+--+-+-------+", PROF_Q="----+--+-+--------", color=grey, expected_nab="3.4816", label="0.730125227729828", nab=4, penwidth="0.28922631959508316", style=solid, taxa_A="ath|cel|dme|hsa|vcn", taxa_Q="cel|dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"cel|dme|hsa" -- "ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn"  [A="----+--+-+--------", B="-+--+-++-++-+-++++", PROF_A="-+--+-++-++-+-++++", PROF_Q="----+--+-+--------", color=grey, expected_nab="12.7657", label="0.0683683245379129", nab=7, penwidth="0.5061460592913954", style=solid, taxa_A="ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q="cel|dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"ath|cel|dme|hsa|vcn" -- "ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn"  [A="-+--+--+-+-------+", B="-+--+-++-++-+-++++", PROF_A="-+--+-++-++-+-++++", PROF_Q="-+--+--+-+-------+", color=grey, expected_nab="1.1931", label="0.0350693248569112", nab=4, penwidth="0.28922631959508316", style=solid, taxa_A="ath|cel|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q="ath|cel|dme|hsa|vcn", taxonomy_A=eukar, taxonomy_Q=eukar];
+}

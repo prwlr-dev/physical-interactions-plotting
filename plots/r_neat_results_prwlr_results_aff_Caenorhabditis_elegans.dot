@@ -1,0 +1,18 @@
+graph  {
+hsa;
+"dme|hsa";
+"dme|hsa|sce|spo";
+"ath|ddi|dme|hsa|sce|spo|tcr|tet|vcn";
+"ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn";
+"ath|ddi|dme|hsa|pfa|sce|spo|tet|vcn";
+"ape|ath|ddi|dme|hsa|pfa|sce|sis|spo|tcr|tet|vcn";
+hsa -- "dme|hsa"  [A="--------+--------", B="------+-+--------", PROF_A="------+-+--------", PROF_Q="--------+--------", color=grey, expected_nab="1.5658", label="0.677590695443324", nab=2, penwidth="1.7543859649122806", style=solid, taxa_A="dme|hsa", taxa_Q=hsa, taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa" -- "dme|hsa"  [A="------+-+--------", B="------+-+--------", PROF_A="------+-+--------", PROF_Q="------+-+--------", color=grey, expected_nab="11.4079", label="0.3690184029524", nab=9, penwidth="7.894736842105263", style=solid, taxa_A="dme|hsa", taxa_Q="dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa" -- "dme|hsa|sce|spo"  [A="------+-+--------", B="------+-+--+-+---", PROF_A="------+-+--+-+---", PROF_Q="------+-+--------", color=green, expected_nab="3.3553", label="0.8639183588365892", nab=3, penwidth="2.631578947368421", style=solid, taxa_A="dme|hsa|sce|spo", taxa_Q="dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa" -- "ath|ddi|dme|hsa|sce|spo|tcr|tet|vcn"  [A="------+-+--------", B="-+---++-+--+-++++", PROF_A="-+---++-+--+-++++", PROF_Q="------+-+--------", color=green, expected_nab="4.4737", label="0.8273692335873141", nab=4, penwidth="3.508771929824561", style=solid, taxa_A="ath|ddi|dme|hsa|sce|spo|tcr|tet|vcn", taxa_Q="dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa" -- "ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn"  [A="------+-+--------", B="-+---++-++-+-++++", PROF_A="-+---++-++-+-++++", PROF_Q="------+-+--------", color=grey, expected_nab="3.5789", label="0.350899889823161", nab=2, penwidth="1.7543859649122806", style=solid, taxa_A="ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q="dme|hsa", taxonomy_A=eukar, taxonomy_Q=eukar];
+"dme|hsa|sce|spo" -- "ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn"  [A="------+-+--+-+---", B="-+---++-++-+-++++", PROF_A="-+---++-++-+-++++", PROF_Q="------+-+--+-+---", color=grey, expected_nab="1.0526", label="0.960047076010418", nab=1, penwidth="0.8771929824561403", style=solid, taxa_A="ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q="dme|hsa|sce|spo", taxonomy_A=eukar, taxonomy_Q=eukar];
+"ath|ddi|dme|hsa|sce|spo|tcr|tet|vcn" -- "ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn"  [A="-+---++-+--+-++++", B="-+---++-++-+-++++", PROF_A="-+---++-++-+-++++", PROF_Q="-+---++-+--+-++++", color=grey, expected_nab="1.4035", label="0.798401959772989", nab=1, penwidth="0.8771929824561403", style=solid, taxa_A="ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q="ath|ddi|dme|hsa|sce|spo|tcr|tet|vcn", taxonomy_A=eukar, taxonomy_Q=eukar];
+"ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn" -- "ath|ddi|dme|hsa|pfa|sce|spo|tet|vcn"  [A="-+---++-++-+-+-++", B="-+---++-++-+-++++", PROF_A="-+---++-++-+-++++", PROF_Q="-+---++-++-+-+-++", color=grey, expected_nab="0.4912", label="0.0873618562815376", nab=2, penwidth="1.7543859649122806", style=solid, taxa_A="ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxa_Q="ath|ddi|dme|hsa|pfa|sce|spo|tet|vcn", taxonomy_A=eukar, taxonomy_Q=eukar];
+"ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn" -- "ape|ath|ddi|dme|hsa|pfa|sce|sis|spo|tcr|tet|vcn"  [A="-+---++-++-+-++++", B="++---++-++-++++++", PROF_A="++---++-++-++++++", PROF_Q="-+---++-++-+-++++", color=grey, expected_nab="0.5614", label="0.0138622910443458", nab=3, penwidth="2.631578947368421", style=dashed, taxa_A="ape|ath|ddi|dme|hsa|pfa|sce|sis|spo|tcr|tet|vcn", taxa_Q="ath|ddi|dme|hsa|pfa|sce|spo|tcr|tet|vcn", taxonomy_A=mixed, taxonomy_Q=eukar];
+}
