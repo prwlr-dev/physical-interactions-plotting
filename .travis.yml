@@ -8,7 +8,7 @@ python:
 install:
   # Anaconda3
   - wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
-  - bash /tmp/Anaconda3-2019.10-Linux-x86_64.sh -b -p ${HOME}/anaconda3
+  - bash Anaconda3-2019.10-Linux-x86_64.sh -b -p ${HOME}/anaconda3
   - echo 'export PATH="/opt/anaconda3/bin:$PATH"' >> ${HOME}/.bashrc
   - . ${HOME}/.bashrc
 
