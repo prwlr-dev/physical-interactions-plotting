@@ -1,0 +1,10 @@
+name: physical-interactions-plotting
+channels:
+  - defaults
+dependencies:
+  -  pandas
+  -  pygraphviz
+  -  matplotlib
+  - pip
+  - pip:
+    - prwlr
