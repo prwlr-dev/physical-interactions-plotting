@@ -5,6 +5,7 @@ dependencies:
   - pandas
   - networkx
   - pygraphviz
+  - pydot
   - matplotlib
   - nb_conda
   - ipykernel
