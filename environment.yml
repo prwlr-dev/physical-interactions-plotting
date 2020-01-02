@@ -3,6 +3,7 @@ channels:
   - defaults
 dependencies:
   - pandas
+  - networkx
   - pygraphviz
   - matplotlib
   - nb_conda
