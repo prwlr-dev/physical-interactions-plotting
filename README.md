@@ -4,7 +4,7 @@ This notebook is for extending, integrating, transforming and plotting the physi
 
 # Installation
 
-The notebook is meant to work with the [Anaconda Python Distribution](physical-interactions-plotting)
+The notebook is meant to work with the [Anaconda Python Distribution](https://www.continuum.io/)
 
 Use ```environment.yml``` file to create the virtual environment:
 
